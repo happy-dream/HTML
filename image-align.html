@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <style>
+          .column{
+              float:left;
+              width:30%;
+              padding:5px;
+          }
+          .row::after{
+            content:"";
+            clear:both;
+            display:table;
+          }
+        </style>
+    </head>
+    <body>
+        <div class="row">
+            <div class="column">
+                <img src="snow1.jpg" alt="snow1" width="100%">
+            </div>
+            <div class="column">
+                <img src="snow2.jpg" alt="snow2" width="100%">
+            </div>
+            <div class="column">
+                <img src="snow3.jpg" alt="snow3" width="100%">
+            </div>
+        </div>
+    </body>
+</html>
